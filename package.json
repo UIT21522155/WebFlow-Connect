@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.11.4",
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fbgraph": "^0.1.0",
+    "got-scraping": "^4.0.6",
+    "next": "^13.1.1",
+    "openai": "^4.47.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "request": "^2.88.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=7"
+  },
+  "proxy": "http://localhost:8000"
+}
